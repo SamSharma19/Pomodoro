@@ -1,0 +1,76 @@
+.todo-list{
+     font-family: 'Times New Roman', Times, serif;
+     text-align:center;
+     margin-top: 100px;
+     background: inherit; 
+}
+.todohead{
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(235, 221, 17);
+    box-shadow: 0 0 5px 0; 
+    background: inherit; 
+    backdrop-filter: blur(10px); 
+}
+button{
+    font-size: 1.4rem;
+    color: rgb(235, 221, 17);
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: 2px black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+.addbutton{
+    background-color: hsl(125, 47%, 54%);
+}
+.addbutton:hover{
+    background-color: hsl(125, 47%, 44%);
+}
+.delbutton{
+    background-color: hsl(19, 92%, 49%);
+}
+.delbutton:hover{
+    background-color: hsl(32, 93%, 42%);
+}
+.upbutton{
+    background-color: hsl(57, 82%, 57%);
+}
+.upbutton:hover{
+    background-color: hsl(58, 67%, 29%);
+}
+.downbutton{
+    background-color: hsl(218, 70%, 39%);
+}
+.downbutton:hover{
+    background-color: hsl(209, 67%, 22%);
+}
+input[type="text"]{
+    font-size: 1.4rem;
+    padding: 10px;
+    border: 5px black;
+    border-radius: 5px;
+    color:hsl(19, 92%, 49%)
+}
+li{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+    background-color: wheat;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex : 1;
+}
+.delbutton, .upbutton, .downbutton {
+    padding: 8px 12px;
+    margin-left: 10px;
+    font-size: 1.4rem;
+  
+ }
